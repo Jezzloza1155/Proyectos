@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mokemon </title>
+        <link rel="stylesheet" href="./Estilo.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <section id="seleccionarmascota">
+        
+            <h1 class="titulo">Mokemon</h1>
+            <h2 class="subtitulo">Seleciona tu mascota</h2>
+            <div id="contenedorMokemon" class="Entradamascota">
+            </div>  
+            
+            <button id="boton-mascota">Seleccionar</button> 
+        
+        </section>
+        <section id="vermapa">
+            <h1 class="titulo">Mokemon</h1>
+            <canvas id="mapa"></canvas>
+            <div class="boton-mover">
+                <button onmouseup="detenermovimiento()" onmousedown="moverarriba()" ontouchstart="moverarriba()" ontouchend="detenermovimiento()">Arriba</button>
+                <div class="boton-inferiores">
+                    <button onmouseup="detenermovimiento()" onmousedown="moverizquierda()" ontouchend="detenermovimiento()" ontouchstart="moverizquierda()">Izquierda</button>
+                    <button onmouseup="detenermovimiento()" onmousedown="moverabajo()" ontouchend="detenermovimiento()" ontouchstart="moverabajo()" > Abajo </button>
+                    <button onmouseup = "detenermovimiento()" onmousedown="moverderecha()" ontouchend = "detenermovimiento()" ontouchstart="moverderecha()">Derecha</button>
+                </div>
+            </div>
+        </section>
+        <section id="combate">
+            
+            <h1 class="titulo">Mokemon</h1>
+            <h2 class="subtitulo">Combate</h2>
+            <h2 class="emcabezado">Elige tu ataque:</h2>
+
+            <section id="Elemento">
+                <div id="contenedorataques" class="entradaelemento">
+                    
+                </div>
+            </section>    
+
+            <section id="mensajes">
+                <div class="mensajeplayer">
+                    <p>Tu mascota es: <span id="petsjugador"> </span></p>
+                    <p id="imagenplayer"> </p>
+                    <p> Salud disponible: <span id="vidajuga"></span></p>
+                    <p>Secuencia de ataque es:<p> 
+                    <div id="Elementoju">
+
+                    </div>
+                    
+                </div>
+                <div class="mensajeenemigo"> 
+                    <p> Mascota enemiga es: <span id="petsenemigo"> </span></p>
+                    <p id="imagenenemigo"> </p>
+                    <p> Salud disponible:<span id="vidaene"></span></p>
+                    <p> Elemento es:</p>
+                    <div id="Elementoene">
+
+                    </div>
+                    
+                </div>
+                
+                <div class="desicion" ><p>  Desicion del Combate: <span id="reslt-cbt"></span> </p>
+
+            </section>
+
+            <button id="boton-reinicio">Reiniciar</button> 
+        </section>
+        <script src="./Mokejs/mokepon.js"></script>
+    </body>
+</html>

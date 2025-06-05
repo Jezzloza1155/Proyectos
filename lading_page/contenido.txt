@@ -1,0 +1,8 @@
+Plataforma de Gestión de Proyectos:
+
+Imagen principal: Una imagen que represente la colaboración y la productividad (ej: un equipo trabajando en un proyecto, gráficos de progreso).
+Título: El nombre de la plataforma (ej: "ProjectFlow").
+Subtexto: Una breve descripción de los beneficios de la plataforma (ej: "Organiza, colabora y gestiona tus proyectos de manera eficiente").
+Secciones: Podrían mostrar características clave (seguimiento de tareas, comunicación en equipo, informes), testimonios de empresas que la usan.
+Cita: Una frase sobre la mejora de la productividad o el éxito en la gestión de proyectos.
+Llamada a la acción: "¡Empieza tu prueba gratuita!" o "¡Solicita una demo!"

@@ -1,0 +1,146 @@
+*{
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.foto-recetas{
+    height: 400px;
+    width: 400px;
+    border-radius: 140px;
+}
+.icono-menu{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    gap: 10px;
+}
+.cuerpo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.logo-dark{
+    display: flex;
+    flex-direction: row;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: brown;
+    color: snow;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.titule{
+    font-family: 'Courier New';
+    font-size: 32px;
+}
+.listrecetas{
+    display: flex;
+    background-color:brown;
+    flex-direction: row;
+    width:auto ;
+    padding: 5px;
+    height: auto;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.listrecetas li a{
+    color:snow;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gainsboro;
+    padding: 5px;
+}
+.switchdarkmode{
+    position: relative;
+    width: 95px;
+    height: 40px;
+    display: block;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: inset 0px 5px 15px black,inset 0px -5px 15px rgb(255, 255, 255,0.3) ;
+}
+.switchdarkmode::after{
+    content: "";
+    position:absolute;
+    height: 30px;
+    width: 30px;
+    background-color: snow;
+    border-radius: 100px;
+    top: 10px;
+    left: 10px;
+    transition: 0.5s;
+    box-shadow: 0.5px 10px rgb(0, 0, 0,0.1);
+}
+#darkmode:checked~.switchdarkmode::after{
+    left: 85px;
+    transform: translate(-100%);
+    background:linear-gradient(180deg,#777,#3a3a3a);
+}
+#darkmode:checked~.switchdarkmode{
+    background: #242424;
+}
+/*.background{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+input:checked + label + body{
+    background: #242424;
+}*/
+#darkmode{
+    display: none;
+}
+address{
+    font-size: 20px;
+}
+
+/*Otros html*/
+.presentacion{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ingredientes{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+}
+.ingredientes .listingredientes{
+    margin: 5px;
+    background-color:lightgrey;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
