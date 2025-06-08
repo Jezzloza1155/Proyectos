@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piedrapapeltijera</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    
+    <h1>Piedra, Papel y Tijera</h1>
+    <h3>Elige tu opcion</h3>
+    <div class="seleccion">
+        <button id="boton-tijera" ><strong>Tijera</strong></button>
+        <button id="boton-piedra" ><strong>Piedra</strong></button>
+        <button id="boton-papel" ><strong>Papel</strong></button>
+    </div>
+    <div class="mensajes">
+        <div class="resultado">
+            <strong>El resultado final es: <span id="desicion"></span></strong>
+        </div>
+        <div class="log-personajes">
+            <div class="jugador">
+                <h3>El jugador eligio:</h3>
+            </div>
+            <div class="registro">
+                <h3>Registro:<h3>
+            </div>
+            <div class="enemigo">
+                <h3>El enemigo eligio:</h3>
+
+            </div>
+        </div>
+    </div>
 </body>
 <script src="./juego.js"></script>
 </html>

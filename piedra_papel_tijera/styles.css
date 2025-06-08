@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+body{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#393E46;
+}
+h1{
+    text-align: center;
+    color: darkkhaki;
+    font-size: 30px;
+}
+h3{
+    color: snow;
+}
+button{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 100%;
+    margin: 10px;
+    border-style: none;
+    background-color: #393E46;
+    color: snow;
+}
+button:hover{
+    background-color: black;
+}
+.seleccion,.jugador,.enemigo,.registro,.resultado{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#948979;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+.seleccion{
+    padding: 10px;
+    
+}
+.mensajes{
+    flex-direction: column;
+    color: #222831;
+}
+.mensajes strong{
+    font-size: 18px;
+}
+.mensajes h3{
+    color: #222831;
+}
+.jugador,.enemigo,.registro{
+    flex-direction: column;
+}
+.log-personajes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
