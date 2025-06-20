@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #C0C9EE;
+    align-items: center;
+
+}
+h1{
+    color: #FFF2E0;
+    text-align: center;
+    font-family: Arial;
+}
+label{
+    font-size: 20px;
+    font-family: Arial;
+    color:blue;
+    margin: 10px;
+}
+#boton_cuadricula,#ingresar_numero{
+    border-radius: 30px;
+    border-color: white;
+    background-color:#A2AADB ;
+    border-style: solid;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+}
+#ingresar_numero{
+    width: 200px;
+    padding: 0px;
+    text-align: center;
+}
+#ingresar_numero:focus{
+    border-color: white;
+    outline: none;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#boton_cuadricula:hover{
+    background-color: #898AC4;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 800px; 
+    height: 800px; 
+    border: 1px solid gray;
+}
+.filas{
+    display: flex; 
+    flex: 1; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+.cuadro{
+    display: flex;
+    flex: auto;
+    background-color: snow;
+    border: 1px solid whitesmoke;
+}
