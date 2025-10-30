@@ -4,10 +4,11 @@ Hola! Soy Jesús Peñaloza - Desarrollador Web Frontend
 Soy un apasionado por la creacion de soluciones digitales. Tengo conocimientos de Frontend y Backend, por parte del frontend manejo Javascript,HTML,CSS (Flexbox) y Bootstrap, por parte del backend tengo conocimientos de Nodejs y estoy aprendiendo PHP.
 
 Tecnologias.
-*Javascript
-*HTML
-*CSS
-*Bootstrap CSS
+
+*Javascript,
+*HTML,
+*CSS,
+*Bootstrap CSS,
 
 Proyectos
 
